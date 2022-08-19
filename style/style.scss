@@ -117,11 +117,44 @@ body{
 
         #contact{
             display: flex;
-            flex-direction: column;
-            
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            img{
+                border-radius: 5%;
+            }
         }
 
 
+    }
+
+    @media screen and (max-width:360px){
+        .glitch{
+            font-size: clamp(1rem, -1.5rem + 16.6667vw, 2.25rem);
+        }
+
+        .info{
+            font-size: clamp(1rem, -1.5rem + 16.6667vw, 2.25rem);
+            
+        }
+
+        .skills{
+            .main-container{
+                .child{
+                    h1{
+                        font-size: clamp(1rem, -1.5rem + 16.6667vw, 2.25rem);
+                    }
+                }
+            }
+        }
+
+        #exp{
+            img{
+                width: 150px;
+                height: 80px;
+            }
+        }
     }
 }
 
@@ -687,7 +720,7 @@ body{
                 
 
                 h1{
-                    font-size: 3rem;
+                    font-size: clamp(0.75rem, -0.0682rem + 5.4545vw, 3rem);
                 
                 }
                 
@@ -871,7 +904,7 @@ body{
 
                 img{
                     position: relative;
-                    width: clamp(300px, 40%, 500px);
+                    width: clamp(250px, 40%, 500px);
                     height: 180px;
                     border-radius: 10px;
                     transition: all 0.5s ease;

@@ -105,7 +105,28 @@ body {
   }
   body #contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  body #contact img {
+    border-radius: 5%;
+  }
+}
+@media screen and (max-width: 360px) {
+  body .glitch {
+    font-size: clamp(1rem, -1.5rem + 16.6667vw, 2.25rem);
+  }
+  body .info {
+    font-size: clamp(1rem, -1.5rem + 16.6667vw, 2.25rem);
+  }
+  body .skills .main-container .child h1 {
+    font-size: clamp(1rem, -1.5rem + 16.6667vw, 2.25rem);
+  }
+  body #exp img {
+    width: 150px;
+    height: 80px;
   }
 }
 
@@ -580,7 +601,7 @@ body {
   align-items: center;
 }
 .home_content .skills .main-container .child h1 {
-  font-size: 3rem;
+  font-size: clamp(0.75rem, -0.0682rem + 5.4545vw, 3rem);
 }
 .home_content .skills .main-container .child .main-cards {
   align-items: center;
@@ -740,7 +761,7 @@ body {
 }
 .home_content #exp .main-container .content img {
   position: relative;
-  width: clamp(300px, 40%, 500px);
+  width: clamp(250px, 40%, 500px);
   height: 180px;
   border-radius: 10px;
   transition: all 0.5s ease;
