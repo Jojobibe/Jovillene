@@ -283,7 +283,7 @@ body {
   overflow-x: hidden;
 }
 .home_content .banner {
-  background-image: url(assets/bcat.jpg);
+  background-image: url(../assets/bcat.jpg);
   height: 100%;
   overflow: hidden;
   background-blend-mode: soft-light;
@@ -491,11 +491,11 @@ body {
   top: 10%;
 }
 .home_content .edu .test_fb .school .card-2 {
-  background-image: url(assets/dhs.jpg);
+  background-image: url(../assets/dhs.jpg);
   top: 5%;
 }
 .home_content .edu .test_fb .school .card-3 {
-  background-image: url(assets/mcc.jpg);
+  background-image: url(../assets/mcc.jpg);
   top: 10%;
 }
 .home_content .edu .test_fb .school .card-1, .home_content .edu .test_fb .school .card-2, .home_content .edu .test_fb .school .card-3 {
@@ -557,7 +557,7 @@ body {
   opacity: 1;
 }
 .home_content .skills {
-  background: linear-gradient(180deg, rgb(0, 0, 0), rgba(44, 42, 43, 0.8), rgb(0, 0, 0)), url(assets/sbg.jpg);
+  background: linear-gradient(180deg, rgb(0, 0, 0), rgba(44, 42, 43, 0.8), rgb(0, 0, 0)), url(../assets/sbg.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -711,7 +711,7 @@ body {
   margin: 10px;
 }
 .home_content #exp {
-  background: linear-gradient(180deg, rgb(0, 0, 0), rgba(44, 42, 43, 0.8), rgb(0, 0, 0)), url(assets/sbg.jpg);
+  background: linear-gradient(180deg, rgb(0, 0, 0), rgba(44, 42, 43, 0.8), rgb(0, 0, 0)), url(../assets/sbg.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -753,7 +753,7 @@ body {
   box-shadow: 20px 20px;
 }
 .home_content #webi {
-  background: linear-gradient(180deg, rgb(0, 0, 0), rgba(44, 42, 43, 0.8), rgb(0, 0, 0)), url(assets/sbg.jpg);
+  background: linear-gradient(180deg, rgb(0, 0, 0), rgba(44, 42, 43, 0.8), rgb(0, 0, 0)), url(../assets/sbg.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
